@@ -1,0 +1,289 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+header .container-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #071C31;
+  width: 100%;
+  color: white;
+}
+header .container-header .dropdown .dropdown-menu {
+  background-color: white;
+}
+header .container-header .dropdown a {
+  text-decoration: none;
+  color: black;
+}
+header .container-header ul {
+  margin: 0;
+  padding: 0;
+}
+header .container-header li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 20px;
+  user-select: none;
+}
+header .container-header li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+}
+header .container-header li a:hover {
+  color: #6FC1E4;
+  border-bottom: 1px solid #6FC1E4;
+}
+
+#home {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://storge.pic2.me/upload/352/5a8d562e52d2c.jpg) !important;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+#home .container1 {
+  padding-top: 200px;
+}
+#home .container1 h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+#home .container1 p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#avzaliklar {
+  background-color: white;
+}
+#avzaliklar .container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#avzaliklar .container .row {
+  padding-top: 50px;
+}
+#avzaliklar .container .card {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#avzaliklar .container .card h5 {
+  color: #4f5052;
+  text-align: center;
+  margin-top: 20px;
+}
+#avzaliklar .container .card p {
+  text-align: center;
+  margin-top: 10px;
+}
+#avzaliklar .container .card .icon {
+  color: #6FC1E4;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+#grafik {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.wallpaperscraft.ru/image/motivatsiia_fraza_noutbuk_178598_1280x720.jpg) !important;
+  background-position: center !important;
+  background-attachment: fixed;
+  background-position: 50% 0, 50% 4vh;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+#grafik .container {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+#grafik .container .card {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #5AB9E1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#grafik .container .card h3 {
+  color: white;
+  padding-top: 50px;
+}
+
+#photos {
+  background-color: #EEEEEE;
+}
+#photos h1 {
+  color: black !important;
+}
+#photos .swiper-container {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+#price {
+  background-color: white;
+}
+#price .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#price .container .card {
+  border: 0;
+  outline: 0;
+  background-color: white;
+  padding-bottom: 70px;
+  margin-bottom: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.29);
+}
+#price .container .card .head-card {
+  width: 100%;
+  background-color: #071C31;
+  color: white;
+}
+#price .container .card p {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+#price .container .card h1 {
+  padding-top: 30px;
+}
+#price .container .card ul {
+  padding-top: 40px;
+  margin: 0;
+}
+#price .container .card ul li {
+  list-style-type: none;
+  margin: 0;
+}
+#price .container .card .number {
+  background-color: #071C31;
+  width: 200px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+}
+#price .container .card .number:hover {
+  background-color: #2FFF40;
+  color: white;
+  font-weight: bold;
+}
+#price .container .card:hover {
+  -webkit-box-shadow: 1px 0px 3px 3px #071c31;
+  -moz-box-shadow: 1px 0px 3px 3px #071c31;
+  box-shadow: 1px 0px 3px 3px #071c31;
+}
+
+#documents {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://www.prizyv.net/assets/189dda79/img/images/perechen-dokumentov-dlya-vosstanovleniya-voennogo-bilet.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#documents .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#documents .container .card {
+  padding-top: 50px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#documents .container .card i {
+  color: #6EC0E3;
+  font-size: 50px;
+}
+
+#about_us .container {
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+#faq {
+  background-color: #EEEEEE;
+}
+#faq .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#faq .container .btn {
+  width: 100%;
+  height: 60px;
+  background-color: #5bbde7;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  border: 1px solid white;
+}
+#faq .container .card-body {
+  width: 100%;
+}
+
+footer {
+  background-color: #071C31;
+}
+footer .container {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+footer .container .card {
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+}
+footer .container .card div {
+  display: flex;
+}
+footer .container .card div a {
+  text-decoration: none !important;
+}
+footer .container .card div a i {
+  font-size: 40px;
+  margin: 10px 10px;
+  color: #6EC0E3;
+}
+footer .container .card ul {
+  margin: 0;
+}
+footer .container .card ul li {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=style.css.map */

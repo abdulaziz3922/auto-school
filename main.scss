@@ -1,0 +1,302 @@
+html{
+    scroll-behavior: smooth;
+}
+// header
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    .container-header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #071C31;
+        width: 100%;
+        color: white;
+        .dropdown{
+            .dropdown-menu{
+                background-color:white;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+       ul{
+           margin: 0;
+           padding: 0;
+       }
+        li{
+            list-style-type: none;
+            display: inline-block;
+            padding-left: 20px;
+            user-select: none;
+          a{
+              text-decoration: none;
+              color: white;
+              &:hover{
+                color: #6FC1E4;
+                border-bottom: 1px solid #6FC1E4;
+            }
+            padding-bottom: 10px;
+          }
+        }
+    }
+}
+// homesection
+#home{
+    background-image:linear-gradient( 0deg , rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(https://storge.pic2.me/upload/352/5a8d562e52d2c.jpg) !important;
+   background-size: cover;
+background-position: center;
+    height: 800px;
+    .container1{
+        padding-top: 200px;
+        h1{
+            font-size: 70px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 30px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px; 
+        }
+    }
+}
+// avzaliklar
+#avzaliklar{
+    background-color: white;
+    .container{
+        padding-top: 70px;
+        padding-bottom: 70px;
+.row{
+    padding-top: 50px;
+}
+        .card{
+            border: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+         h5{
+             color:#4f5052;
+             text-align: center;
+             margin-top: 20px;
+         }
+         p{
+             text-align: center;
+             margin-top: 10px;
+         }
+                .icon{
+                   
+                    color: #6FC1E4;
+                    font-size: 70px;
+                    display: flex;
+                    justify-content: center;
+                    
+                }
+            
+        }
+    }
+}
+// grafiksection
+#grafik{
+    background-image:linear-gradient( 0deg , rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(https://images.wallpaperscraft.ru/image/motivatsiia_fraza_noutbuk_178598_1280x720.jpg) !important;
+    background-position: center !important;
+    background-attachment: fixed;
+    background-position: 50% 0, 50% 4vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    .container{
+        padding-top: 100px;
+        padding-bottom: 200px;
+        .card{
+            border: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #5AB9E1;
+            text-align: center;
+            margin-bottom: 20px;
+           h3{
+               color: white;
+               padding-top: 50px;
+           }
+           
+        }
+    }
+}
+// photosectionsection
+#photos{
+    // background-image: url("https://million-wallpapers.ru/wallpapers/4/91/14833510696948689207.jpg");
+    // background-size: cover;
+    background-color: #EEEEEE;
+    h1{
+        color: black !important;
+    }
+    .swiper-container{
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+}
+// pricesection
+#price{
+    background-color: white;
+    .container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .card{
+            border: 0;
+            outline: 0;
+            background-color: rgb(255, 255, 255);
+            padding-bottom: 70px;
+            margin-bottom: 20px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.29);
+            -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.29);
+            box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 0.29);
+          .head-card{
+              width: 100%;
+              background-color: #071C31;
+              color: white;
+          }
+            p{
+                font-weight: bold;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 20px;
+            }
+           h1{
+               padding-top: 30px;
+           }
+           
+            ul{
+                padding-top: 40px;
+                margin: 0;
+                li{
+                    list-style-type: none;
+                    margin: 0;
+              
+                }
+            }
+            .number{
+                background-color: #071C31;
+                width: 200px;
+                height: 50px;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin:auto;
+                margin-top:40px ;
+                &:hover{
+                    background-color: #2FFF40;
+                    color: white;
+                    font-weight: bold;
+                }
+
+            }
+            &:hover{
+                -webkit-box-shadow: 1px 0px 3px 3px rgba(7, 28, 49, 1);
+                -moz-box-shadow: 1px 0px 3px 3px rgba(7, 28, 49, 1);
+                box-shadow: 1px 0px 3px 3px rgba(7, 28, 49, 1);
+            }
+        }
+        }
+    }
+ // documentssection
+ #documents{
+     background-image:linear-gradient( 0deg , rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url("https://www.prizyv.net/assets/189dda79/img/images/perechen-dokumentov-dlya-vosstanovleniya-voennogo-bilet.jpg");
+     background-size: cover;
+     background-position: center;
+     .container{
+padding-top: 100px;
+padding-bottom: 100px;
+.card{
+    padding-top: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    i{
+        color: #6EC0E3;
+        font-size: 50px;
+    }
+    
+}
+     }
+ }
+//  about_ussection
+#about_us{
+    .container{
+background-color: white;
+padding-top: 70px;
+padding-bottom: 100px;
+    }
+}
+// faqsection
+#faq{
+    background-color: #EEEEEE;
+    .container{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .btn{
+            width:100%;
+            height: 60px;
+            background-color: #5bbde7;
+            color: white;
+            font-weight: 600;
+            text-align: left;
+            border: 1px solid white;
+        }
+        .card-body{
+            width:100%;
+        }
+    }
+}
+// footer
+footer{
+    background-color: #071C31;
+    .container{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        .card{
+            background-color: transparent;
+            border: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding-top: 50px;
+            div{
+                display: flex;
+                a{
+                    text-decoration: none !important;
+
+                    i{
+                        font-size: 40px;
+                        margin: 10px 10px;
+                        color: #6EC0E3;
+                    }
+                }
+            }
+            ul{
+                margin: 0;
+                li{
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+}
